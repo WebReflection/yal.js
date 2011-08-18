@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <style type="text/css">*{padding:0;margin:0;line-height:0;font-size:0;width:100%;height:100%;}</style>
+        <script src="http://labjs.com/js/LAB.js"></script>
+        <script>
+        var success, bg;
+        this.onload = function () {
+            bg = 1;
+            success != null && (document.body.style.background = success ? "green" : "red");
+        };
+        $LAB.script("http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js").wait(function () {
+            success = !!window.jQuery;
+            bg && onload();
+        });
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

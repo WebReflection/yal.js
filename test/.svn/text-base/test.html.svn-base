@@ -1,0 +1,32 @@
+<!doctype html>
+<script src="../build/yal.min.js"></script>
+<script>
+this.onload = function () {
+    var
+        body = document.body,
+        console = this.console || {log:function(){}}
+    ;
+    this.a = [];
+    yal
+        .script("1.js")
+        .wait(function(){
+            body.innerHTML = a.join("") == "1";
+        })
+        .script("2.js", "3.js")
+        .wait(function () {
+            body.innerHTML === "true" && (body.innerHTML = /(?:1,2,3|1,3,2)/.test(a));
+        })
+        .script(function () {
+            return "4.js";
+        })
+        .script("5.js")
+        .wait(function () {
+            a.push("6");
+        })
+        .wait(function () {
+            a.push("7");
+            body.innerHTML === "true" && (body.innerHTML = a);
+        })
+    ;
+};
+</script>

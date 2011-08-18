@@ -5,7 +5,7 @@ yal.js, the micro size JS loader
 about
 -----
 
-yal.js is a truly tiny library partially inspired by both LAB.js and yepnope.js projects.
+yal.js is a truly tiny library partially inspired by both [LAB.js](http://labjs.com/) and [yepnope.js](http://yepnopejs.com/) projects.
 
 In about 0.6Kb minzipped yal does really few things but it does them right:
 

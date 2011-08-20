@@ -25,8 +25,6 @@ You can check results against all browsers, if it's green, it passed, if it's re
 
 [crossbrowsertesting](http://crossbrowsertesting.com/users/32945/screenshots/z30790cabfdc044b8e50/public)
 
-[browsershots](http://browsershots.org/http://www.3site.eu/yal/wait.html)
-
 
 example
 -------
